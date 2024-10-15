@@ -11,7 +11,7 @@
 
 # == (Equal to): Checks if the two values are equal.
 
-
+# print(5 == 5) #True
 # print(5 == 5)  # True
 # print(5 == 6)  # False
 # print(10 == 10)  # True
@@ -54,7 +54,7 @@
 # print(age < 18 or age >= 65)   # False
 # or: Returns True if at least one of the statements is true.
 
-# x = 5
+# x =   5
 # print(x > 3 or x > 10)  # True
 # not: Reverse the result, returns False if the result is true.
 
@@ -65,10 +65,13 @@
 
 # x = [1, 2, 3, 4, 5]
 # print(3 in x)  # True
+# print(8 in x)   #False
+# print(8 not in x)   #True
+# print(4 in x) #True
 # not in: Returns True if a sequence with the specified value is not present in the object.
-
 # x = [1, 2, 3, 4, 5]
 # print(6 not in x)  # True
+
 # 4. Identity Operators:
 # is: Returns True if both variables are the same object.
 
@@ -94,7 +97,9 @@
 
 
 #######################boolean expressions challenges#####################
+
 # 20 points each challenge...
+
 # problem 1: Check if a number is both even and divisible by 5.
 # The program prompts the user for a number, checks whether it meets both conditions 
 # (even and divisible by 5), and then outputs the result to the console.
