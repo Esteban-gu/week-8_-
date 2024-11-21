@@ -99,6 +99,10 @@
 
 # values = [1, 2, 3, 4, 5, 6, 9.5]
 
+values = [1, 2, 3, 4, 5, 6, 9.5]
+square_values = [square * square for square in values]
+print(square_values)
+
 # squares_too = [e * e for e in range(1, 11)]
 
 # print(squares_too)
@@ -108,9 +112,9 @@
 
 # Create an even_values list consisting of the numbers in the values list that (you guessed it!) are even.
 
-# values = [1, 2, 3, 4, 5, 6, 9.5]
-
-
+values = [1, 2, 3, 4, 5, 6, 9.5]
+even_values = [value for value in values if value % 2 == 0]
+print(even_values)
 
 
 # List Comprehensions Practice #3
